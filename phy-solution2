@@ -1,0 +1,23 @@
+Problem 2: Evaluating the diffraction angle for the red light.
+
+Given Datas:
+For green light:
+wavelength,  λ1 = 530 nm
+order, m1 = 3 (third order)
+angle, θ1 = 65.0°
+For red light:
+wavelength,  λ2 = 700 nm
+order, m2 = 2 (second order)
+
+we know,
+d * sinθ1 = m1 * λ1
+d = (m1 * λ1) / sinθ1
+d = (3 * 530) / sin(65.0°)
+d = 1754.37 nm
+ now,
+ for red light:
+ sinθ2 = (m2 * λ2 ) / d
+ sinθ2 = (2 * 700 nm) / 1754.37 nm
+ θ2 = 52.94°
+
+So 52.94° will be the second-order bright spot for red light.
